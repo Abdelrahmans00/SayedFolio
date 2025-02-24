@@ -1,0 +1,11 @@
+.footer {
+    width: 100%; 
+    position: relative; 
+    padding: 10px 0; 
+}
+  
+  .styled-line {
+    border: 1px; 
+    height: 2px; 
+    margin: 10px 0; 
+}

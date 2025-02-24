@@ -1,0 +1,25 @@
+@keyframes slideUpFadeIn {
+    0% {
+      opacity: 0;
+      transform: translateY(20px); 
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0); 
+    }
+  }
+  
+  .animate-slideUpFadeIn {
+    animation: slideUpFadeIn 1s ease-out;
+  }
+ 
+.start .name 
+{
+    color: rgb(85, 129, 232);
+}  
+
+.start
+{
+    text-align: left;
+    font-size: 20px;
+}

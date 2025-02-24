@@ -1,0 +1,13 @@
+.container
+{
+    margin-bottom: 300px;
+}
+
+.skill-logo {
+    width: 30px;
+    height: 30px;
+    margin-right: 8px;
+    filter: grayscale(100%); 
+}
+
+  
