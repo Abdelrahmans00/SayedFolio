@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { Link } from "react-router-dom"; 
 import DarkMode from './DarkMode';
 
 export default function Navbar() {
@@ -16,16 +17,15 @@ export default function Navbar() {
   }, []);
 
   const handleToggle = () => setIsOpen(!isOpen); 
-
   const closeMenu = () => setIsOpen(false); 
 
   return (
     <div className="fixed-top">
       <nav className={`navbar navbar-expand-lg bg-body-tertiary py-2`} data-bs-theme={theme}>
         <div className="container-fluid">
-          <a 
+          <Link 
             className="navbar-brand me-2 d-flex align-items-center px-3 py-1 rounded" 
-            href="home"
+            to="home"
             style={{
               backgroundColor: theme === "dark" ? "#222" : "#ddd",
               color: theme === "dark" ? "#fff" : "#000",
@@ -35,25 +35,22 @@ export default function Navbar() {
             }}
           >
             Abdelrahman Sayed
-          </a>
+          </Link>
 
-
-     
           <button className="navbar-toggler" type="button" onClick={handleToggle}>
             <span className="navbar-toggler-icon"></span>
           </button>
 
-     
           <div className={`collapse navbar-collapse ${isOpen ? "show" : ""}`} id="navbarNav">
             <ul className="navbar-nav ms-5 align-items-center">
               <li className="nav-item me-3">
-                <a className="nav-link active" href="projects" onClick={closeMenu}>Projects</a>
+                <Link className="nav-link active" to="projects" onClick={closeMenu}>Projects</Link>
               </li>
               <li className="nav-item me-3">
-                <a className="nav-link active" href="skills" onClick={closeMenu}>Skills</a>
+                <Link className="nav-link active" to="skills" onClick={closeMenu}>Skills</Link>
               </li>
               <li className="nav-item me-3">
-                <a className="nav-link active" href="about" onClick={closeMenu}>About</a>
+                <Link className="nav-link active" to="about" onClick={closeMenu}>About</Link>
               </li>
             </ul>
           </div>
@@ -64,4 +61,3 @@ export default function Navbar() {
     </div>
   );
 }
-
