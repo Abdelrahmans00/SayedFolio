@@ -2,7 +2,7 @@ import './App.css';
 import Home from './Home';
 import NavBar from './NavBar';
 import Footer from './Footer';
-import { HashRouter as Router, Routes, Route } from "react-router-dom";
+import { HashRouter, Route, Routes } from 'react-router-dom'; // ✅ Use HashRouter instead of BrowserRouter
 import React, { useEffect } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css'; 
@@ -17,22 +17,22 @@ const App = () => {
   }, []);
 
   return (
-    <Router> 
+    <HashRouter> {/* ✅ Change from BrowserRouter to HashRouter */}
       <div className="App">
         <NavBar />
-        <DarkMode />
+        <DarkMode/>
         <div className="container">
           <Routes>
-            <Route path="" element={<Home />} /> 
-            <Route path="home" element={<Home />} />
-            <Route path="skills" element={<Skills />} />
-            <Route path="projects" element={<Projects />} />
-            <Route path="about" element={<About />} />
+            <Route path="/" element={<Home />} />
+            <Route path="/home" element={<Home />} />
+            <Route path="/skills" element={<Skills />} />
+            <Route path="/projects" element={<Projects />} />
+            <Route path="/about" element={<About />} />
           </Routes>
         </div>
         <Footer />
       </div>
-    </Router>
+    </HashRouter>
   );
 }
 
