@@ -30,6 +30,12 @@ export default function Projects() {
                         </p>
                         <a href="https://abdelrahmans00.github.io/TodoReact/">View Project</a>
                     </div>
+                    <div className="second col-md-4 pb-4 pt-4"data-aos="fade-left"data-aos-delay="400">
+                        <h2>Kanban</h2>
+                        <p> GameZone is an interactive gaming website that offers three classic games: Memory Game, Snake Game, and Connect 4. Built using React, Tailwind CSS, and JavaScript, the platform provides a smooth and responsive user experience across all devices.
+                        </p>
+                        <a href="https://abdelrahmans00.github.io/GameZone/#/">View Project</a>
+                    </div>
                 </div>
         </div>
     </div>
