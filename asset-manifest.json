@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/SayedFolio/static/css/main.7a8a2dfd.css",
-    "main.js": "/SayedFolio/static/js/main.8c91299e.js",
+    "main.js": "/SayedFolio/static/js/main.33b69dc7.js",
     "static/js/488.9561f9b8.chunk.js": "/SayedFolio/static/js/488.9561f9b8.chunk.js",
     "static/media/fa-solid-900.ttf": "/SayedFolio/static/media/fa-solid-900.2582b0e4bcf85eceead0.ttf",
     "static/media/fa-brands-400.ttf": "/SayedFolio/static/media/fa-brands-400.1815e00441357e01619e.ttf",
@@ -15,11 +15,11 @@
     "static/media/Moon.svg": "/SayedFolio/static/media/Moon.d5c851e87d66b4816918d96936237c21.svg",
     "index.html": "/SayedFolio/index.html",
     "main.7a8a2dfd.css.map": "/SayedFolio/static/css/main.7a8a2dfd.css.map",
-    "main.8c91299e.js.map": "/SayedFolio/static/js/main.8c91299e.js.map",
+    "main.33b69dc7.js.map": "/SayedFolio/static/js/main.33b69dc7.js.map",
     "488.9561f9b8.chunk.js.map": "/SayedFolio/static/js/488.9561f9b8.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7a8a2dfd.css",
-    "static/js/main.8c91299e.js"
+    "static/js/main.33b69dc7.js"
   ]
 }
