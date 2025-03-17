@@ -21,9 +21,9 @@ export default function Navbar() {
 
   return (
     <div className="fixed-top">
-      <nav className={`navbar navbar-expand-lg bg-body-tertiary py-2`} data-bs-theme={theme}>
+      <nav className={`navbar navbar-expand-lg bg-body-tertiary py-1 mb-2`} data-bs-theme={theme}>
         <div className="container-fluid">
-          <Link 
+          <Link
             className="navbar-brand me-2 d-flex align-items-center px-3 py-1 rounded" 
             to="home"
             style={{
@@ -37,9 +37,11 @@ export default function Navbar() {
             Abdelrahman Sayed
           </Link>
 
+
           <button className="navbar-toggler" type="button" onClick={handleToggle}>
             <span className="navbar-toggler-icon"></span>
           </button>
+
 
           <div className={`collapse navbar-collapse ${isOpen ? "show" : ""}`} id="navbarNav">
             <ul className="navbar-nav ms-5 align-items-center">
@@ -54,7 +56,6 @@ export default function Navbar() {
               </li>
             </ul>
           </div>
-
           <DarkMode />
         </div>
       </nav>
