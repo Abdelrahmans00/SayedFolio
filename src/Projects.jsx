@@ -17,7 +17,7 @@ export default function Projects() {
                         <a href="https://abdelrahmans00.github.io/CRUDReact/">View Project</a>
                     </div>
                     <div className="second col-md-4 pb-4 pt-4"data-aos="fade-left"data-aos-delay="200">
-                        <h2>API</h2>
+                        <h2>Movie API</h2>
                         <p> Developed a movie database web app using HTML, CSS, and 
                             JavaScript. Fetched real-time movie details, ratings, and posters 
                             from the MovieDB API. 
@@ -36,6 +36,12 @@ export default function Projects() {
                         </p>
                         <a href="https://abdelrahmans00.github.io/GameZone/#/">View Project</a>
                     </div>
+                    <div className="second col-md-4 pb-4 pt-4"data-aos="fade-left"data-aos-delay="500">
+                          <h2>Weather API</h2>
+                          <p> A responsive weather app built with ReactJS and OpenWeather API, designed for all cities. Features include weekly forecast flip cards, dynamic backgrounds based on conditions, and daily weather tips. 
+                          </p>
+                          <a href="https://abdelrahmans00.github.io/WeatherAPI/">View Project</a>
+                      </div>
                 </div>
         </div>
     </div>
