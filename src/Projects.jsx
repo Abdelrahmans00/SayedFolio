@@ -42,6 +42,12 @@ export default function Projects() {
                           </p>
                           <a href="https://abdelrahmans00.github.io/WeatherAPI/">View Project</a>
                       </div>
+                  <div className="second col-md-4 pb-4 pt-4"data-aos="fade-left"data-aos-delay="600">
+                          <h2>BlogIt</h2>
+                          <p> A full-featured blog application built with Django, allowing users to explore, read, and manage articles with ease. The platform includes user authentication, article creation/editing, rich text formatting with TinyMCE, and a responsive Bootstrap-powered interface. Designed to be simple yet powerful, BlogIt reflects clean backend logic, organized database models, and a smooth user experience.
+                          </p>
+                          <a href="https://abdelrahmans.pythonanywhere.com/">View Project</a>
+                      </div>
                 </div>
         </div>
     </div>
