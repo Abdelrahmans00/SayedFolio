@@ -51,9 +51,9 @@ export default function Navbar() {
               <li className="nav-item me-3">
                 <Link className="nav-link active" to="skills" onClick={closeMenu}>Skills</Link>
               </li>
-              <li className="nav-item me-3">
+{/*               <li className="nav-item me-3">
                 <Link className="nav-link active" to="about" onClick={closeMenu}>About</Link>
-              </li>
+              </li> */}
             </ul>
           </div>
           <DarkMode />
