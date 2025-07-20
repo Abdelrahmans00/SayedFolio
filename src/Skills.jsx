@@ -4,6 +4,8 @@ import { RiTailwindCssFill } from "react-icons/ri";
 import { SiTypescript } from "react-icons/si";
 import { SiVite } from "react-icons/si";
 import { FaPython } from "react-icons/fa";
+import { SiDjango } from "react-icons/si";
+
 
 
 export default function Skills() {
@@ -26,6 +28,8 @@ export default function Skills() {
             { component: <RiTailwindCssFill />, title: "TailwindCSS" },
             { component: <SiTypescript /> , title: "TypeScript" }, 
             { component: <SiVite />, title: "Vite" }, 
+            { component: <SiDjango />, title: "Django" },
+            
 
 
           ].map((skill, index) => (
